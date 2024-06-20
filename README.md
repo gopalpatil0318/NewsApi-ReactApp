@@ -1,6 +1,6 @@
-# Tour Planning App
+# News Application
 
-This project is a simple React application that allows users to view a list of tours, read more about each tour, and remove tours they are not interested in.
+This project is a simple React application that allows users to view a list of news articles, read more about each article, and filter articles by category.
 
 ## Technologies Used
 - React
@@ -14,8 +14,7 @@ This project is a simple React application that allows users to view a list of t
 
 1. Clone the repository:
     ```sh
-   git clone https://github.com/your-username/your-repository.git
-
+   git clone https://github.com/gopalpatil0318/NewsApi-ReactApp.git
 
 2. Navigate to the project directory:
     ```sh
