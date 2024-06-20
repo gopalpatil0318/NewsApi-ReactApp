@@ -1,0 +1,19 @@
+.news-articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .news-article {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .news-article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
