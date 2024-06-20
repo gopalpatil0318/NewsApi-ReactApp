@@ -9,6 +9,11 @@ This project is a simple React application that allows users to view a list of n
 - Conditional rendering
 - Array filtering and mapping
 - React Router
+- vite
+
+## News API
+
+This application uses the News API to fetch the latest news articles. You can sign up for a free API key at [News API.](https://newsapi.org/)
 
 ## Installation
 
