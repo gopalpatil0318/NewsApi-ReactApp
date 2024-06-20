@@ -46,6 +46,7 @@ const NewsDetail = () => {
   return (
     <div className='min-h-screen flex flex-col bg-slate-700'>
       <Navbar />
+      
       <div className="container mx-auto p-4">
         <div className="w-full max-w-2xl mx-auto bg-slate-900 bg-opacity-80 rounded-md overflow-hidden">
           <div className="relative">
