@@ -18,7 +18,7 @@ This project is a simple React application that allows users to view a list of n
 
 2. Navigate to the project directory:
     ```sh
-    cd Tourism-Plan-React
+    cd NewsApi-ReactApp
 
 3. Install dependencies:
     ```sh
