@@ -19,8 +19,8 @@ const Home = () => {
           const response = await fetch(url);
           const data = await response.json();
        
-          setArticles(data.articles);
-          console.log(data)
+          setArticles(data.articles || []);
+        
         } catch (error) {
           console.error('Error fetching the news articles:', error);
         }

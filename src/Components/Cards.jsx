@@ -7,6 +7,9 @@ const Cards = ({articles,category}) => {
   ? articles
   : articles.filter(article => article.source.name === category);
 
+  if (filteredArticles.length === 0) {
+    return <div className='text-white'>No articles available</div>;
+  }
 
   return (
     <div className='flex flex-wrap justify-center gap-4 mb-4'>

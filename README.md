@@ -32,3 +32,10 @@ This application uses the News API to fetch the latest news articles. You can si
     ```sh
     npm start
 Open your browser and visit http://localhost:3000 to view the app.
+
+
+## Usage
+
+View News Articles: The home page displays a list of the latest news articles.
+Filter by Category: You can filter articles by category using the provided buttons.
+Read More: Click the "Read More" button on any article to view the full details on a separate page.
