@@ -26,7 +26,7 @@ const Card = ({ article,index }) => {
       </div>
       <div className='mb-3 mr-3 flex justify-end'>
         <Link
-          to={`/news/${index}`}
+          to={`/news/${article.title}`}
           className='bg-transparent hover:bg-blue-950 text-blue-900 font-semibold hover:text-white py-1 px-2 border border-blue-900 hover:border-transparent rounded'
         >
           Read More...

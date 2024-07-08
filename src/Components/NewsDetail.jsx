@@ -8,7 +8,7 @@ const NewsDetail = () => {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const { index } = useParams();
+  const { title } = useParams();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -29,7 +29,8 @@ const NewsDetail = () => {
     fetchData();
   }, []);
 
-  const article = articles[index];
+  const decodedTitle = decodeURIComponent(title); 
+  const article = articles.find(article => article.title === decodedTitle);
 
   if (loading) {
     return <Spinner />;
