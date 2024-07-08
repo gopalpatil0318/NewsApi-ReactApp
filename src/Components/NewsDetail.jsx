@@ -29,7 +29,7 @@ const NewsDetail = () => {
     fetchData();
   }, []);
 
-  const article = articles[parseInt(index, 10)];
+  const article = articles[index];
 
   if (loading) {
     return <Spinner />;
