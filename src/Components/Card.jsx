@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-const Card = ({ article,index }) => {
+const Card = ({ article, index }) => {
 
 
   if (!article) {

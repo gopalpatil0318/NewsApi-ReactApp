@@ -50,6 +50,10 @@ const Home = () => {
                 loading ? (<Spinner />) : (<Cards articles={articles} category = {category} />)
               }
         </div>
+        <div className='flex justify-center mb-4'>
+        <p>Made by Gopal ❤️.</p>
+        </div>
+      
       </div>
          
          
